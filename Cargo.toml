@@ -29,7 +29,7 @@ pin-project = "1.0.7"
 pretty-hex = "0.3.0"
 rand = "0.8.3"
 rtsp-types = "0.0.5"
-sdp-types = "0.1.4"
+sdp-types = { git = "https://github.com/spencercw/sdp-types.git", rev = "31dd5179aba7fe802b51e825782679e1953dd497" }
 smallvec = { version = "1.6.1", features = ["union"] }
 thiserror = "1.0.25"
 time = "0.1.43"
